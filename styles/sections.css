@@ -1,3 +1,77 @@
 #perfil {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/Background_Contacts.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-block: 120px 100px;;
+
+    .box-perfil {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+        padding-bottom: 80px;
+            
+        img{
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            border: 3px solid var(--red);
+        }
+
+        span {
+            font-size: 16px;
+            line-height: 120%;
+            font-family: var(--inconsolata);
+
+        }
+
+        p {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-family: var(--maven-pro-sm);
+            max-width: 500px;
+        }
+    }
+
+    .box-perfil-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+        padding-bottom: 94px;
+
+        .icons {
+            background-color: var(--gray-400);
+            border-radius: 30px;
+            width: 140px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                width: cover;
+                padding-right: 8px;
+            }
+        }
+    }
     
+    .roll {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            width: 24px;
+            height: 24px;
+            
+        }
+    }
+
 }
+
