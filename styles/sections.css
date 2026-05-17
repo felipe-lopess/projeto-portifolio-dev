@@ -44,6 +44,7 @@
     align-items: center;
     gap: 16px;
     padding-bottom: 94px;
+    flex-wrap: wrap;
 
     .icons {
         background-color: var(--gray-400);
@@ -53,10 +54,13 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        padding-right: 8px;
+        fill: currentColor;
 
         img {
-            width: cover;
             padding-right: 8px;
+            stroke: currentColor;
+            fill: currentColor;
         }
     }
 }
@@ -69,10 +73,8 @@
     img {
         width: 24px;
         height: 24px;
-        
     }
 }
-
 
 #destaques {
 display: flex;
@@ -96,13 +98,19 @@ background-color: var(--gray-500);
         font-family: var(--asap-sm);
         padding-bottom: 56px;
     }
-
-.grid-box{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-
-    }
 }
+
+.card-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    padding-bottom: 144px;
+
+}
+
 .card{
     width: 330px;
     height: 280px;
@@ -119,4 +127,35 @@ background-color: var(--gray-500);
 
 .text-card {
     padding-top: 16px;
+    font-family: var(--maven-pro-sm);
 }
+
+.text-card h2 {
+    font-family: var(--asap-md);
+    padding-bottom: 8px;
+}
+
+#servicos{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: var(--gray-500);
+}
+.t-servicos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: column;
+    flex-direction: column;
+    font-family: var(--inconsolata-sb);
+    text-align: center;
+
+    
+}
+
+.t-destaques-2 {
+        font-family: var(--asap-sm);
+        padding-bottom: 56px;
+    }
