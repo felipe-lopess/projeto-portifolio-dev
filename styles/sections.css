@@ -18,7 +18,7 @@
         width: 160px;
         height: 160px;
         border-radius: 50%;
-        border: 3px solid var(--red);
+        border: 3px solid var(--gray-300);
     }
 
     span {
@@ -36,6 +36,12 @@
         font-family: var(--maven-pro-sm);
         max-width: 500px;
     }
+}
+
+.box-perfil img:hover {
+    border: 3px solid var(--red);
+    transition: border-color 0.3s ease;
+    
 }
 
 .box-perfil-2 {
@@ -63,6 +69,34 @@
             fill: currentColor;
         }
     }
+}
+
+.github:hover {
+    border: 3px solid var(--gray-300);
+    transition:  border-color 0.3s ease;
+}
+
+.html:hover {
+    border: 3px solid var(--red);
+    transition:  border-color 0.3s ease;
+}   
+
+.css:hover {
+    border: 3px solid var(--blue);
+    transition:  border-color 0.3s ease;
+}
+
+.js:hover {
+    border: 3px solid var(--yellow);
+    transition:  border-color 0.3s ease;
+}
+.react:hover {
+    border: 3px solid var(--blue);
+    transition:  border-color 0.3s ease;
+}
+.nodejs:hover {
+    border: 3px solid var(--green);
+    transition:  border-color 0.3s ease;
 }
 
 .roll {
@@ -135,14 +169,21 @@ background-color: var(--gray-500);
     padding-bottom: 8px;
 }
 
+.card:hover {
+    border: 2px solid var(--gray-300);
+    transition: border-color 0.3s ease;
+}
+
 #servicos{ 
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
-    background-color: var(--gray-500);
+    background-color: var(--gray-600);
+    padding-block: 88px 120px;
 }
+
 .t-servicos {
     display: flex;
     justify-content: center;
@@ -151,11 +192,50 @@ background-color: var(--gray-500);
     flex-direction: column;
     font-family: var(--inconsolata-sb);
     text-align: center;
-
-    
 }
 
-.t-destaques-2 {
+.t-servicos-2 {
         font-family: var(--asap-sm);
         padding-bottom: 56px;
     }
+
+.servicos-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.servicos-card {
+    padding: 20px;
+    border: 1px solid var(--gray-400);
+    border-radius: 20px;
+    max-width: 300px;
+    height: 155px;
+}
+
+.servicos-img{
+    width: 48px;
+    height: 48px;
+}
+
+.servicos-img img {
+    width: 100%;
+}
+
+.servicos-text {
+    display:flex;
+    flex-wrap: wrap;
+    padding-block: 20px;
+}
+
+.servicos-text p {
+    font-family: var(--asap-sm);
+}
+
+#contato {
+    
+}
+
+
