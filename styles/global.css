@@ -53,4 +53,11 @@ body {
     color: var(--yellow);
 }
 
+.inconsolata {
+    font-family: var(--inconsolata);
+}
+
+.maven-pro-sm {
+    font-family: var(--maven-pro-sm);
+}
 

@@ -3,8 +3,7 @@
     flex-direction: column;
     background-image: url(../images/Background_Contacts.png);
     background-size: cover;
-    background-repeat: no-repeat;
-    padding-block: 120px 100px;;
+    padding-block: 120px 100px;
 }
 .box-perfil {
     display: flex;
@@ -235,7 +234,76 @@ background-color: var(--gray-500);
 }
 
 #contato {
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-block: 128px 200px;
+    gap: 16px;
+    flex-direction: column;
+    background-image: url(../images/Background_Intro.png);
+    background-size: cover;
 }
 
+.t-contatos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 48px;
+}
 
+.t-contatos p  {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 8px;
+}
+
+.t-contatos h2  {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 8px;
+}
+
+.t-contatos span  {
+    text-align: center;
+    width: 100%;
+}
+
+.contatos-card {
+    display: flex;
+    gap: 3px;
+    background-color: var(--gray-400);
+    width: 450px;
+    padding: 23px;
+    border-radius: 7px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contatos-card img {
+    width: 100%;
+}
+
+.contatos-card a {
+    text-decoration: none;
+    color: var(--gray-200);
+}
+
+.linkedin:hover {
+    color: var(--blue);
+    border: 2px solid var(--blue);
+    transition: border-color 0.3s ease;
+}
+
+.instagram:hover {
+    color: var(--purple);
+    border: 2px solid var(--purple);
+    transition: border-color 0.3s ease;
+}
+
+.gmail:hover {
+    color: var(--red);
+    border: 2px solid var(--red);
+    transition: border-color 0.3s ease;
+}
